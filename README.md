@@ -61,3 +61,4 @@ The example pipeline contains 6 blocks:
 Copyright (c) 2021 Rendered Text
 
 Distributed under the MIT License. See the file LICENSE.md.
+
